@@ -1,5 +1,5 @@
 #
-# https://github.com/Medouni8010/lhs80103030
+# https://github.com
 #
 # Copyright (c) 2020 CLOUD <https://CLOUD.com>
 #
@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: 0 6 8-14,22-28 * 5
+    - cron: 0 4 * * 0
 
 jobs:
   deploy:
